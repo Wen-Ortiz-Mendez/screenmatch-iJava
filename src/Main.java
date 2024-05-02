@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Bienvenidos a la inmersion de Alura!");
+        System.out.println("Bienvenidos a la inmersion de Alura!");
         System.out.println("Pelicula : Matrix");
 
         int fechaDeLanzamiento = 1999;
@@ -17,10 +17,10 @@ public class Main {
                 """;
         double mediaEvaluacionUsuario =0;
 
-        System.out.println(nombre);
-        System.out.println(fechaDeLanzamiento);
-        System.out.println(evaluacion);
-        System.out.println(incluidoEnElPlanBasico);
+        //System.out.println(nombre);
+        System.out.println("Fecha de lanzamiento: "+fechaDeLanzamiento);
+        System.out.println("Mejor evaluación:"+ evaluacion);
+        System.out.println("Se incluye en el plan básico?: "+incluidoEnElPlanBasico);
 
         double mediaEvaluacion = (4.5 + 4.8 + 3 )/3;
         System.out.println("Media de la evaluacion de Matrix:" + mediaEvaluacion);
